@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample Grape API CRUD app
 
-Things you may want to cover:
+This is an application on Ruby on Rails using Grape API, where user can create, update, delete and see list of all music or a specific music through API routes.
 
-* Ruby version
+The following GEMS are used for integrating grape API
+- gem 'grape'
+- gem 'grape-entity'
+- gem 'grape_on_rails_routes'
 
-* System dependencies
+Simply clone the project and run 
+- bundle install
+- rails db:create db:migrate
 
-* Configuration
+The following command will give the list of API route to run the CRUD operations
+- rails grape:routes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
